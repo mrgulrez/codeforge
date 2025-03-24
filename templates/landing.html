@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiSuraaksha - Secure & Smart Complaint Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white text-center py-4 shadow-lg">
+        <h1 class="text-3xl font-bold">Welcome to DigiSuraaksha</h1>
+        <p class="text-lg">Your AI-powered platform for secure complaint management</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col items-center justify-center h-screen text-center px-4">
+        <h2 class="text-4xl font-bold text-gray-800">Resolve Complaints Faster with AI</h2>
+        <p class="text-lg text-gray-600 mt-4">Effortless complaint tracking, AI-powered summaries, and real-time status updates.</p>
+        <a href="{% url 'landing' %}" class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700">
+            Get Started
+        </a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-white py-16 px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800">Why Choose DigiSuraaksha?</h2>
+        <div class="mt-8 flex flex-wrap justify-center gap-8">
+            <div class="max-w-sm p-6 bg-gray-100 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">AI-Powered Summaries</h3>
+                <p class="mt-2 text-gray-600">Our system automatically extracts key points from complaints for faster resolution.</p>
+            </div>
+            <div class="max-w-sm p-6 bg-gray-100 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">Real-Time Tracking</h3>
+                <p class="mt-2 text-gray-600">Monitor the status of your complaints anytime, anywhere.</p>
+            </div>
+            <div class="max-w-sm p-6 bg-gray-100 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">Secure & Transparent</h3>
+                <p class="mt-2 text-gray-600">Ensuring complete data security and transparent processes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <p>&copy; 2024 DigiSuraaksha. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
